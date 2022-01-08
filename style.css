@@ -47,8 +47,8 @@ header{
 
 .numpad {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 3fr);
+    grid-template-rows: repeat(4, 3fr);
     width: 24rem;
     height: 390px;
     margin: 0.6rem 3rem 0.6rem 3rem;
