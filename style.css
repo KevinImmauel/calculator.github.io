@@ -1,0 +1,85 @@
+body{
+    background-color: #1d1f21;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+}   
+
+header{
+    color: #fff;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.cal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #151617;
+    width: 9rem;
+    height: 14rem;
+    border-radius: 10px;
+}
+
+#textarea2, #textarea {
+    padding: 0.2em 0.5em;
+    width: 8rem;
+    border: none;
+    background-color: #1d1f21;;
+    color: #fff;
+    text-align: end;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+#textarea2 {
+    border-radius: 5px 5px 0 0;
+}
+
+#textarea{
+    border-radius: 0 0 5px 5px;
+}
+
+.numpad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 8rem;
+    height: 130px;
+    margin: 0.2rem 1rem 0.2rem 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    justify-items: center;
+    align-items: center;
+}
+
+button{
+    width: 1.8rem;
+    height: 1.8rem;
+    background-color: #1d1f21;;
+    border: none;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 0.6rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+button:hover{
+    background-color: #393E46;
+    color: #fff;
+}
+
+#result {
+    width: 8rem;
+    border-radius: 5px;
+}
+
+#result:hover,
+#del:hover,
+#clear:hover {
+    background-color: #344FA1;
+}
