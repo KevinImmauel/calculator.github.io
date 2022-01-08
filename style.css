@@ -10,7 +10,8 @@ body{
 header{
     color: #fff;
     text-align: center;
-    margin: 1rem 0;
+    margin: 3rem 0;
+    font-size: 4rem;
 }
 
 .cal{
@@ -19,52 +20,54 @@ header{
     justify-content: center;
     flex-direction: column;
     background-color: #151617;
-    width: 9rem;
-    height: 14rem;
-    border-radius: 10px;
+    width: 27rem;
+    height: 46rem;
+    border-radius: 30px;
 }
 
 #textarea2, #textarea {
-    padding: 0.2em 0.5em;
-    width: 8rem;
+    padding: 0.6rem 1.5rem;
+    width: 24rem;
+    height: 84.391px;
     border: none;
     background-color: #1d1f21;;
     color: #fff;
     text-align: end;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
   }
 
 #textarea2 {
-    border-radius: 5px 5px 0 0;
+    border-radius: 15px 15px 0 0;
 }
 
 #textarea{
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 15px 15px;
 }
 
 .numpad {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    width: 8rem;
-    height: 130px;
-    margin: 0.2rem 1rem 0.2rem 1rem;
+    grid-template-columns: repeat(4, 3fr);
+    grid-template-rows: repeat(4, 3fr);
+    width: 24rem;
+    height: 390px;
+    margin: 0.6rem 3rem 0.6rem 3rem;
     text-align: center;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 15px;
     justify-items: center;
     align-items: center;
 }
 
 button{
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 5.4rem;
+    height: 5.4rem;
     background-color: #1d1f21;;
     border: none;
     text-align: center;
     color: #fff;
-    border-radius: 5px;
-    font-size: 0.6rem;
+    border-radius: 15px;
+    font-size: 1.2rem;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -74,8 +77,8 @@ button:hover{
 }
 
 #result {
-    width: 8rem;
-    border-radius: 5px;
+    width: 24rem;
+    border-radius: 15px;
 }
 
 #result:hover,
