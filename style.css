@@ -82,6 +82,7 @@ button:hover{
     background-color: #344FA1;
 }
 
+
 @media screen and (max-width: 800px) {
     body {
         transform: scale(0.9);
