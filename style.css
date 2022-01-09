@@ -5,6 +5,7 @@ body{
     align-items: center;
     flex-direction: column;
     font-family: 'Ubuntu', sans-serif;
+    margin: 0;
 }   
 
 header{
@@ -78,7 +79,10 @@ button:hover{
 
 @media screen and (max-width: 800px) {
     body {
-        transform: scale(0.9);
+        transform: scale(0.8);
+    }
+    header{
+        margin: 1rem 1rem;
     }
   }
 
