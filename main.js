@@ -6,16 +6,11 @@ const clear = document.getElementById('clear')
 const result = document.getElementById('result')
 
 for (let i = 0; i < op.length; i++) {
+
     op[i].addEventListener("click", () => {
-        if (op[i].innerHTML == '*' || op[i].innerHTML == '/' || op[i].innerHTML == '+' || op[i].innerHTML == '-') {
-            textarea2.value = textarea.value
-            textarea.value = ''
-            textarea2.value += op[i].innerHTML
-        }
-        else {
-            textarea.value += op[i].innerHTML
-        }
+        textarea.value += op[i].innerHTML
     })
+    
 }
 
 clear.addEventListener('click', () => {
@@ -35,6 +30,6 @@ result.addEventListener('click', () => {
     else {
         var neww = textarea2.value + textarea.value
         textarea.value = '=' + ' ' + eval(textarea2.value + textarea.value)
-        textarea2.value = neww
-    }
+        textarea2.value = neww    
+    }  
 }) 
