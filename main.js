@@ -6,11 +6,9 @@ const clear = document.getElementById('clear')
 const result = document.getElementById('result')
 
 for (let i = 0; i < op.length; i++) {
-
     op[i].addEventListener("click", () => {
         textarea.value += op[i].innerHTML
     })
-    
 }
 
 clear.addEventListener('click', () => {
