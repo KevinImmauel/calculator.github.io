@@ -21,17 +21,9 @@ del.addEventListener('click', () => {
 })
 
 result.addEventListener('click', () => {
-    for (let i = 0; i <= textarea.value.length; i++) {
-        if (textarea.value[i] == '.') {
-            
-        }
-    }
     if (textarea2.value == '' && textarea.value == '') {
         textarea.value == ''
         textarea2.value == ''
-    }
-    else if () {
-
     }
     else {
         var neww = textarea2.value + textarea.value
