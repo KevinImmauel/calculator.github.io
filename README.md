@@ -1,3 +1,4 @@
+# calculator.github.io 
 ### CALCULATOR
 <br>Bery Gud calculator in written in JS 👍
 <br>Website is up and running ✨ 'https://kevinimmauel.github.io/calculator.github.io/' ✨
