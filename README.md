@@ -1,6 +1,6 @@
 # CALCULATOR
 
-Bery Gud calculator in written in JS 👍
+Bery Gud calculator written in JS 👍
 
 The Website is up and running ✨ 'https://kevinimmauel.github.io/calculator.github.io/' ✨
 
