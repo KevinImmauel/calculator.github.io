@@ -27,7 +27,7 @@ result.addEventListener('click', () => {
     }
     else {
         var neww = textarea2.value + textarea.value
-        textarea.value = '=' + ' ' + eval(textarea2.value + textarea.value)
+        textarea.value = eval(textarea2.value + textarea.value)
         textarea2.value = neww    
     }  
 }) 
